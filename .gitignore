@@ -1,0 +1,22 @@
+﻿# Python 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 编辑器/IDE
+.vscode/
+.idea/
+
+# 数据库文件
+db.sqlite3
+
+# 运行日志
+*.log
