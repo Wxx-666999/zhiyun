@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import CommunityView from '../views/CommunityView.vue'
 import PropertiesView from '../views/PropertiesView.vue'
@@ -6,7 +6,7 @@ import ContactView from '../views/ContactView.vue'
 import CustomView from '../views/CustomView.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   scrollBehavior() {
     return { top: 0 }
   },
